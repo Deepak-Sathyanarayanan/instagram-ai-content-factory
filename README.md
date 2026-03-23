@@ -92,6 +92,14 @@ pip install -r requirements.txt
 - A local model available in Ollama
 - FastAPI dependencies from `requirements.txt`
 
+## Model Configuration
+
+This project uses a local LLM via Ollama.
+
+- Runtime: Ollama
+- Model: gemma3 
+- variant: 7B instruct model
+
 ## Running Ollama
 
 Make sure Ollama is installed and running, and that the model you want to use is available.
