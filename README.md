@@ -65,30 +65,7 @@ It is best described as a role-based prompt pipeline rather than a fully autonom
     └── sample_response.json
 ```
 
-## Where to Put Screenshots
-
-Create an `assets/` folder at the root of the repository and place the screenshots there.
-
-Recommended structure:
-
-```bash
-assets/
-├── github_repo.png
-├── api_docs.png
-└── api_response.png
-```
-
-Suggested mapping for your current screenshots:
-
-- GitHub repository screenshot -> `assets/github_repo.png`
-- Swagger UI form screenshot -> `assets/api_docs.png`
-- API response screenshot -> `assets/api_response.png`
-
 ## Screenshots
-
-### Repository Structure
-
-![Repository Structure](assets/github_repo.png)
 
 ### FastAPI Swagger UI
 
@@ -176,16 +153,6 @@ curl -X 'POST' \
 ```
 
 ## Example JSON Output
-
-Add the response JSON file to an `examples/` folder in the repository:
-
-```bash
-examples/
-└── sample_response.json
-```
-
-Then keep this link in the README so GitHub redirects the reader directly to the JSON file:
-
 [View sample JSON response](examples/sample_response.json)
 
 ## Example Response Structure
@@ -276,55 +243,14 @@ python main.py \
 ## Design Notes
 
 This project is useful for:
-- local content generation workflows
+- local AI-content generation workflows
 - rapid social media content prototyping
 - structured prompt pipelines
 - testing multi-role content generation patterns
 
-It does **not** currently implement:
+## Recommended Improvements
 - autonomous agent planning
 - agent memory
 - tool-using agents
 - dynamic delegation between agents
 
-## Recommended Improvements
-
-Potential next steps:
-- add a README badge section
-- add environment variable documentation
-- document model configuration in detail
-- add unit tests
-- add request and response schemas to the README
-- add Docker support
-- add a real agent framework if autonomous behavior is desired
-
-## Suggested Repository Additions
-
-To make the repository easier to understand on GitHub, add:
-
-```bash
-assets/
-examples/
-README.md
-```
-
-Recommended final structure:
-
-```bash
-.
-├── .gitignore
-├── README.md
-├── agents.yaml
-├── app.py
-├── crew.py
-├── main.py
-├── requirements.txt
-├── tasks.yaml
-├── assets/
-│   ├── github_repo.png
-│   ├── api_docs.png
-│   └── api_response.png
-├── examples/
-│   └── sample_response.json
-└── outputs/
-```
