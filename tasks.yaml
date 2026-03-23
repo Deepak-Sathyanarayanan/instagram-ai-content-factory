@@ -1,0 +1,67 @@
+strategy_task:
+  description: >
+    Use the topic, audience, goal, and tone to create:
+    1. one content angle
+    2. one target pain point
+    3. three hook ideas
+    4. three to five key takeaways
+
+    Focus only on AI/ML topics for a technical audience.
+    The content should feel credible to engineers and practitioners.
+    Avoid generic creator advice.
+
+  expected_output: >
+    A clearly labeled strategy section with Content Angle, Target Pain Point,
+    Hook Ideas, and Key Takeaways.
+
+carousel_task:
+  description: >
+    Using the strategy output, create a 7-slide Instagram carousel.
+
+    STRUCTURE:
+    - Slide 1: Hook
+    - Slides 2–6: Value
+    - Slide 7: CTA
+
+    RULES:
+    - Max 8 words per line
+    - Max 2 lines per slide
+    - No paragraphs
+    - Each slide must be punchy and skimmable
+    - Use tension, contrast, or bold statements
+    - Focus only on AI/ML topics
+    - Write for a technical audience
+    - Use practical engineering insights, tradeoffs, or failure modes
+
+    ALSO INCLUDE:
+    - Design notes
+    - Caption (with strong opening line)
+    - 5–10 hashtags
+
+  expected_output: >
+    A clearly labeled carousel with Slide 1 through Slide 7,
+    design notes, caption, and hashtags.
+
+reel_task:
+  description: >
+    Using the strategy output, create an Instagram reel script with:
+    Hook (0-3s), Body (3-20s), Closing CTA, optional on-screen text,
+    and optional shot suggestions.
+
+    Focus only on AI/ML topics for a technical audience.
+    Keep it sharp, credible, and practical.
+
+  expected_output: >
+    A clearly labeled reel script with Hook, Body, Closing CTA,
+    On-screen Text, and Shot Suggestions.
+
+editor_task:
+  description: >
+    Improve the carousel and reel for clarity, engagement, brevity,
+    and flow without changing the core message.
+
+    Keep the final output technical, sharp, and relevant to AI/ML practitioners.
+    Remove generic or non-technical phrasing where needed.
+
+  expected_output: >
+    A final polished version of the carousel and reel with clean formatting.
